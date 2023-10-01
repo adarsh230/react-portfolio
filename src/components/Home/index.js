@@ -34,11 +34,11 @@ const Home = () => {
     <div className="container home-page">
       <div className="text-zone">
         <h1>
-          <span className="text-animate">H</span>
-          <span className="text-animate _12">i,</span>
+          <span className={letterClass}>H</span>
+          <span className={`${letterClass} _12`}>i,</span>
           <br />
-          <span className="text-animate _13">I</span>
-          <span className="text-animate _14">'m</span>
+          <span className={`${letterClass} _13`}>I</span>
+          <span className={`${letterClass} _14`}>'m</span>
           <img src={LogoTitle} alt="developer" />
           <AnimatedLetters
             letterClass={letterClass}
