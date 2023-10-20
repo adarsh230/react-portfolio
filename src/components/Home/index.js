@@ -55,7 +55,7 @@ const Home = () => {
             ></AnimatedLetters>
           </h1>
           <h2>React Developer / Vue Developer / Python Enthusiast</h2>
-          <Link to="/contacts" className="flat-button">
+          <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
